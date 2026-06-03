@@ -43,6 +43,6 @@ setup(
     packages=['lomap', 'lomap.algorithms', 'lomap.classes'],
     package_dir={'lomap': 'lomap'},
     install_requires=['networkx >= 1.11', 'matplotlib >= 1.3.1',
-                      'setuptools >= 1.1.6'],
+                      'setuptools >= 1.1.6', 'pyyaml >= 6.0.0'],
     zip_safe=False
 )
